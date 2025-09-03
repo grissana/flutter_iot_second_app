@@ -28,13 +28,19 @@ class _Learn07UiState extends State<Learn07Ui> {
               SizedBox(
                 height: 40,
               ),
-              ClipRRect(
-                borderRadius: BorderRadius.circular(12),
-                child: Image.network(
-                  'https://cdn.pixabay.com/photo/2023/01/05/09/31/ferris-wheel-7698474_1280.jpg',
-                  width: 100,
-                  height: 100,
-                  fit: BoxFit.cover,
+              InkWell(
+                onTap: () {
+                  // Handle tap
+                  Navigator.pop(context);
+                },
+                child: ClipRRect(
+                  borderRadius: BorderRadius.circular(12),
+                  child: Image.network(
+                    'https://cdn.pixabay.com/photo/2023/01/05/09/31/ferris-wheel-7698474_1280.jpg',
+                    width: 100,
+                    height: 100,
+                    fit: BoxFit.cover,
+                  ),
                 ),
               ),
               SizedBox(
