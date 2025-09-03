@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
 // import 'package:flutter_iot_second_app/views/learn01_ui.dart';
 // import 'package:flutter_iot_second_app/views/learn02_ui.dart';
-import 'package:flutter_iot_second_app/views/learn03_ui.dart';
+// import 'package:flutter_iot_second_app/views/learn03_ui.dart';
+// import 'package:flutter_iot_second_app/views/learn04_ui.dart';
+// import 'package:flutter_iot_second_app/views/learn05_ui.dart';
+import 'package:flutter_iot_second_app/views/learn06_ui.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 void main() {
@@ -26,7 +29,7 @@ class _FlutterIotSecondAppState extends State<FlutterIotSecondApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false, // ปิดแบนเนอร์ Debug
-      home: Learn03Ui(), //เรียกหน้า Home
+      home: Learn06Ui(), //เรียกหน้า Home
       theme: ThemeData(
         textTheme: GoogleFonts.itimTextTheme(
           Theme.of(context).textTheme,
